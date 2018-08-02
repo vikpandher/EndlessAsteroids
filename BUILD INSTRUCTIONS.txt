@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+This progam is built using Visual Studio's Command Line Build tools.
+
+Open a command prompt and setup its path. This can be done using a .bat file
+provided by Visual Studio it's location and function vary depending on the
+version of Visual Studio.
+
+Examples:
+For Visual Studio 14,
+call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"
+
+For Visual Studio 2017,
+call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars32.bat"
+
+Now that the path has been setup, run "build.bat" located in THIS folder.
+
+This will generate an .exe file a build folder.
